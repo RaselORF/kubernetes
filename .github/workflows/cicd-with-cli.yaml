@@ -3,7 +3,7 @@ name: Trigger iCR
 on:
   push:
     # branches: [ '**' ]
-    branches: ["master"]
+    branches: ['master']
     paths-ignore: [ "result/**" ]
 
 jobs:
